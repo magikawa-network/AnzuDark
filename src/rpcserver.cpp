@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2018 The PIVX developers
+// Copyright (c) 2015-2018 The AnzuDark developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -263,11 +263,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop PIVX server.");
+            "\nStop AnzuDark server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "PIVX server stopping";
+    return "AnzuDark server stopping";
 }
 
 
@@ -351,37 +351,37 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* PIVX features */
-        {"pivx", "masternode", &masternode, true, true, false},
-        {"pivx", "listmasternodes", &listmasternodes, true, true, false},
-        {"pivx", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"pivx", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"pivx", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"pivx", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"pivx", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"pivx", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"pivx", "masternodedebug", &masternodedebug, true, true, false},
-        {"pivx", "startmasternode", &startmasternode, true, true, false},
-        {"pivx", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"pivx", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"pivx", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"pivx", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"pivx", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"pivx", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"pivx", "mnbudget", &mnbudget, true, true, false},
-        {"pivx", "preparebudget", &preparebudget, true, true, false},
-        {"pivx", "submitbudget", &submitbudget, true, true, false},
-        {"pivx", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"pivx", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"pivx", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"pivx", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"pivx", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"pivx", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"pivx", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"pivx", "checkbudgets", &checkbudgets, true, true, false},
-        {"pivx", "mnsync", &mnsync, true, true, false},
-        {"pivx", "spork", &spork, true, true, false},
-        {"pivx", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* AnzuDark features */
+        {"anzudark", "masternode", &masternode, true, true, false},
+        {"anzudark", "listmasternodes", &listmasternodes, true, true, false},
+        {"anzudark", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"anzudark", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"anzudark", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"anzudark", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"anzudark", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"anzudark", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"anzudark", "masternodedebug", &masternodedebug, true, true, false},
+        {"anzudark", "startmasternode", &startmasternode, true, true, false},
+        {"anzudark", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"anzudark", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"anzudark", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"anzudark", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"anzudark", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"anzudark", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"anzudark", "mnbudget", &mnbudget, true, true, false},
+        {"anzudark", "preparebudget", &preparebudget, true, true, false},
+        {"anzudark", "submitbudget", &submitbudget, true, true, false},
+        {"anzudark", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"anzudark", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"anzudark", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"anzudark", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"anzudark", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"anzudark", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"anzudark", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"anzudark", "checkbudgets", &checkbudgets, true, true, false},
+        {"anzudark", "mnsync", &mnsync, true, true, false},
+        {"anzudark", "spork", &spork, true, true, false},
+        {"anzudark", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -614,7 +614,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> pivx-cli " + methodname + " " + args + "\n";
+    return "> anzudark-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

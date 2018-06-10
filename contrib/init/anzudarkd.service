@@ -1,0 +1,26 @@
+[Unit]
+Description=AnzuDark's distributed currency daemon
+After=network.target
+
+[Service]
+User=anzudark
+Group=anzudark
+
+Type=forking
+PIDFile=/var/lib/anzudarkd/anzudarkd.pid
+
+ExecStart=/usr/bin/anzudarkd -daemon -pid=/var/lib/anzudarkd/anzudarkd.pid \
+          -conf=/etc/anzudark/anzudark.conf -datadir=/var/lib/anzudarkd
+
+ExecStop=-/usr/bin/anzudark-cli -conf=/etc/anzudark/anzudark.conf \
+         -datadir=/var/lib/anzudarkd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

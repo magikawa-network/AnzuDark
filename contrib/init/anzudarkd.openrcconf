@@ -1,0 +1,26 @@
+# /etc/conf.d/anzudarkd: config file for /etc/init.d/anzudarkd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/anzudark/anzudark.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/anzudarkd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/anzudarkd.pid"
+
+# Where to write anzudarkd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/anzudarkd"
+
+# User and group to own anzudarkd process
+#BITCOIND_USER="anzudark"
+#BITCOIND_GROUP="anzudark"
+
+# Path to anzudarkd executable
+#BITCOIND_BIN="/usr/bin/anzudarkd"
+
+# Nice value to run anzudarkd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=AnzuDark
+Comment=AnzuDark P2P Cryptocurrency
+Comment[fr]=AnzuDark, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=AnzuDark, eşten eşe kriptografik sanal para birimi
+Exec=anzudark-qt %u
+Terminal=false
+Type=Application
+Icon=anzudark128
+MimeType=x-scheme-handler/anzudark;
+Categories=Office;Finance;
