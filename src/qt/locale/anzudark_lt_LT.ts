@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>AnzuDark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar AnzuDark išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>AnzuDark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AZDs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar AnzuDark išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų AZD nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AZD&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO AZD&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>zPIV Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zAZD</source>
+        <translation>zAZD Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1122,8 +1122,8 @@ MultiSend: %1</translation>
         <translation>Ši etiketė taps raudona, jei gavėjas gaus sumą mažesnę už %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Gali skirtis +/- %1 upiv kiekvienoje įvestyje.</translation>
+        <source>Can vary +/- %1 uazd per input.</source>
+        <translation>Gali skirtis +/- %1 uazd kiekvienoje įvestyje.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1647,8 +1647,8 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti PIV</translation>
+        <source>Add destinations to send AZD to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti AZD</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1734,32 +1734,32 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AZD</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 AZD</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AZD</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 AZD</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 AZD to anonymize 10000 AZD</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 AZD, kad anonimizuotų 10000 AZD</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 AZD to anonymize 10000 AZD</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 AZD, kad anonimizuotų 10000 AZD</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV kas 1000 PIV kuriuos anonimizuosite.</translation>
+        <source>0.1 AZD per 10000 AZD you anonymize.</source>
+        <translation>0.1 AZD kas 1000 AZD kuriuos anonimizuosite.</translation>
     </message>
     </context>
 <context>
@@ -1842,20 +1842,20 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Įgalinti zPIV Automatinį nukaldinima</translation>
+        <source>Enable zAZD Automint</source>
+        <translation>Įgalinti zAZD Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zPIV naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming AZD which get automatically converted to zAZD via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto AZD, kuris automatiškai bus konvertuotas į zAZD naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Automatiškai sukurtų zPIV procentas</translation>
+        <source>Percentage of autominted zAZD</source>
+        <translation>Automatiškai sukurtų zAZD procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Pageidautinas zPIV Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zAZD Denomination</source>
+        <translation>Pageidautinas zAZD Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the AnzuDark network through a SOCKS5 proxy.</source>
@@ -1965,8 +1965,8 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Balansas</translation>
+        <source>AZD Balance</source>
+        <translation>AZD Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -1993,8 +1993,8 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Jūsų dabartinis AnzuDark balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Balansas</translation>
+        <source>zAZD Balance</source>
+        <translation>zAZD Balansas</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AnzuDark network after a connection is established, but this process has not completed yet.</source>
@@ -2033,8 +2033,8 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zPIV kalimą.</translation>
+        <source>Locked AZD or Masternode collaterals. These are excluded from zAZD minting.</source>
+        <translation>Užrakinti AZD arba Masternode užstatai. Jie yra neįtraukti į zAZD kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2086,12 +2086,12 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zAZD</source>
+        <translation>zAZD</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 AZD</source>
+        <translation>0.000 000 00 AZD</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -2118,8 +2118,8 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zAZD</source>
+        <translation>0 zAZD</translation>
     </message>
     <message>
         <source>Security Level:</source>
@@ -2539,8 +2539,8 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Grąža: </translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 AZD</source>
+        <translation>0 AZD</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2979,14 +2979,14 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZAzdControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zAZD</source>
+        <translation>zAZD</translation>
     </message>
     </context>
 <context>

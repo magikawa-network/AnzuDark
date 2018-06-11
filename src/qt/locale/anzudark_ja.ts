@@ -269,7 +269,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZAzdControlDialog</name>
     </context>
 <context>
     <name>anzudark-core</name>

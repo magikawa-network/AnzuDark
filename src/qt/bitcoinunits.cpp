@@ -19,18 +19,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PIV);
-    unitlist.append(mPIV);
-    unitlist.append(uPIV);
+    unitlist.append(AZD);
+    unitlist.append(mAZD);
+    unitlist.append(uAZD);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case PIV:
-    case mPIV:
-    case uPIV:
+    case AZD:
+    case mAZD:
+    case uAZD:
         return true;
     default:
         return false;
@@ -40,11 +40,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case PIV:
+    case AZD:
         return QString("anzudark");
-    case mPIV:
+    case mAZD:
         return QString("manzudark");
-    case uPIV:
+    case uAZD:
         return QString::fromUtf8("uanzudark");
     default:
         return QString("???");
@@ -55,23 +55,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIV:
-            return QString("PIV");
-        case mPIV:
-            return QString("mPIV");
-        case uPIV:
-            return QString::fromUtf8("μPIV");
+        case AZD:
+            return QString("AZD");
+        case mAZD:
+            return QString("mAZD");
+        case uAZD:
+            return QString::fromUtf8("μAZD");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIV:
-            return QString("tPIV");
-        case mPIV:
-            return QString("mtPIV");
-        case uPIV:
-            return QString::fromUtf8("μtPIV");
+        case AZD:
+            return QString("tAZD");
+        case mAZD:
+            return QString("mtAZD");
+        case uAZD:
+            return QString::fromUtf8("μtAZD");
         default:
             return QString("???");
         }
@@ -82,23 +82,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIV:
-            return QString("PIV");
-        case mPIV:
-            return QString("Milli-PIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIV:
-            return QString("Micro-PIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case AZD:
+            return QString("AZD");
+        case mAZD:
+            return QString("Milli-AZD (1 / 1" THIN_SP_UTF8 "000)");
+        case uAZD:
+            return QString("Micro-AZD (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIV:
-            return QString("TestPIVs");
-        case mPIV:
-            return QString("Milli-TestPIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIV:
-            return QString("Micro-TestPIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case AZD:
+            return QString("TestAZDs");
+        case mAZD:
+            return QString("Milli-TestAZD (1 / 1" THIN_SP_UTF8 "000)");
+        case uAZD:
+            return QString("Micro-TestAZD (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -108,11 +108,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case PIV:
+    case AZD:
         return 100000000;
-    case mPIV:
+    case mAZD:
         return 100000;
-    case uPIV:
+    case uAZD:
         return 100;
     default:
         return 100000000;
@@ -122,11 +122,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case PIV:
+    case AZD:
         return 8;
-    case mPIV:
+    case mAZD:
         return 5;
-    case uPIV:
+    case uAZD:
         return 2;
     default:
         return 0;

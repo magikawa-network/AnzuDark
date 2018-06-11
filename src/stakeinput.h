@@ -22,15 +22,15 @@ public:
     virtual CAmount GetValue() = 0;
     virtual bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) = 0;
     virtual bool GetModifier(uint64_t& nStakeModifier) = 0;
-    virtual bool IsZPIV() = 0;
+    virtual bool IsZAZD() = 0;
     virtual CDataStream GetUniqueness() = 0;
 };
 
 
-// zPIVStake can take two forms
+// zAZDStake can take two forms
 // 1) the stake candidate, which is a zcmint that is attempted to be staked
-// 2) a staked zpiv, which is a zcspend that has successfully staked
-class CZPivStake : public CStakeInput
+// 2) a staked zazd, which is a zcspend that has successfully staked
+class CZAzdStake : public CStakeInput
 {
 private:
     uint32_t nChecksum;
@@ -39,7 +39,7 @@ private:
     uint256 hashSerial;
 
 public:
-    explicit CZPivStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
+    explicit CZAzdStake(libzerocoin::CoinDenomination denom, const uint256& hashSerial)
     {
         this->denom = denom;
         this->hashSerial = hashSerial;
@@ -47,7 +47,7 @@ public:
         fMint = true;
     }
 
-    explicit CZPivStake(const libzerocoin::CoinSpend& spend);
+    explicit CZAzdStake(const libzerocoin::CoinSpend& spend);
 
     CBlockIndex* GetIndexFrom() override;
     bool GetTxFrom(CTransaction& tx) override;
@@ -57,19 +57,19 @@ public:
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
     bool MarkSpent(CWallet* pwallet, const uint256& txid);
-    bool IsZPIV() override { return true; }
+    bool IsZAZD() override { return true; }
     int GetChecksumHeightFromMint();
     int GetChecksumHeightFromSpend();
     uint32_t GetChecksum();
 };
 
-class CPivStake : public CStakeInput
+class CAzdStake : public CStakeInput
 {
 private:
     CTransaction txFrom;
     unsigned int nPosition;
 public:
-    CPivStake()
+    CAzdStake()
     {
         this->pindexFrom = nullptr;
     }
@@ -83,7 +83,7 @@ public:
     CDataStream GetUniqueness() override;
     bool CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut = 0) override;
     bool CreateTxOuts(CWallet* pwallet, vector<CTxOut>& vout, CAmount nTotal) override;
-    bool IsZPIV() override { return false; }
+    bool IsZAZD() override { return false; }
 };
 
 

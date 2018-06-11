@@ -176,16 +176,16 @@
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>AnzuDark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>AnzuDark zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw PIV's kunnen stelen.</translation>
+        <source>AnzuDark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AZDs from being stolen by malware infecting your computer.</source>
+        <translation>AnzuDark zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw AZD's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW PIV VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR AZD&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW AZD VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Blader door transactiegescheidenis</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Privacy Acties voor zPIV</translation>
+        <source>Privacy Actions for zAZD</source>
+        <translation>Privacy Acties voor zAZD</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1130,8 +1130,8 @@ MultiSend: %1</translation>
         <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Kan +/-%1 upiv per invoer variëren.</translation>
+        <source>Can vary +/- %1 uazd per input.</source>
+        <translation>Kan +/-%1 uazd per invoer variëren.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1681,8 +1681,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Adres / Bedrag:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Voeg bestemmingen toe om PIV naar te verzenden</translation>
+        <source>Add destinations to send AZD to</source>
+        <translation>Voeg bestemmingen toe om AZD naar te verzenden</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1780,32 +1780,32 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>Selecteer de privacy level.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 AZD</source>
+        <translation>Gebruik 2 aparte masternodes om fondsen te mixen tot 10000 AZD</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 AZD</source>
+        <translation>Gebruik 8 aparte masternodes om fondsen te mixen tot 10000 AZD</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Gebruik 16 aparte masternodes</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Deze optie is het snelst en kost ongeveer ~0,025 PIV om 10000 PIV te anonimiseren</translation>
+        <source>This option is the quickest and will cost about ~0.025 AZD to anonymize 10000 AZD</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0,025 AZD om 10000 AZD te anonimiseren</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 PIV om 10000 PIV te anonimiseren</translation>
+        <source>This option is moderately fast and will cost about 0.05 AZD to anonymize 10000 AZD</source>
+        <translation>Deze optie is gematigd snel en kost ongeveer 0,05 AZD om 10000 AZD te anonimiseren</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Dit is de langzaamste en veiligste optie. Het gebruik van maximale anonimiteit kost</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>je anonimiseert 0,1 PIV per 10000 PIV.</translation>
+        <source>0.1 AZD per 10000 AZD you anonymize.</source>
+        <translation>je anonimiseert 0,1 AZD per 10000 AZD.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1948,28 +1948,28 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Schakel automatisch slaan van PIV-eenheden in op zPIV</translation>
+        <source>Enable automatic minting of AZD units to zAZD</source>
+        <translation>Schakel automatisch slaan van AZD-eenheden in op zAZD</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Schakel zPIV Automint in</translation>
+        <source>Enable zAZD Automint</source>
+        <translation>Schakel zAZD Automint in</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende PIV die automatisch wordt omgezet naar zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming AZD which get automatically converted to zAZD via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende AZD die automatisch wordt omgezet naar zAZD via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Percentage autominted zPIV</translation>
+        <source>Percentage of autominted zAZD</source>
+        <translation>Percentage autominted zAZD</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg PIV voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough AZD for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg AZD voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Gewenste Automint zPIV denominatie</translation>
+        <source>Preferred Automint zAZD Denomination</source>
+        <translation>Gewenste Automint zAZD denominatie</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2131,8 +2131,8 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Totaal saldo, inclusief alle niet-beschikbare munten.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Saldi</translation>
+        <source>AZD Balance</source>
+        <translation>AZD Saldi</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2159,12 +2159,12 @@ https://www.transifex.com/anzudark-project/anzudark-project-translations</transl
         <translation>Uw huidige AnzuDark-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV-saldo</translation>
+        <source>zAZD Balance</source>
+        <translation>zAZD-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zAZD are spendable.</source>
         <translation>Volwassen: meer dan 20 bevestigingen en meer dan 1 mint van dezelfde denominatie nadat het gemint was.
 Deze zPIB zijn besteedbaar.</translation>
     </message>
@@ -2219,8 +2219,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Uitgeefbaar:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Vergrendelde PIV of Masternode onderpanden. Deze zijn uitgesloten van de zPIV muntage.</translation>
+        <source>Locked AZD or Masternode collaterals. These are excluded from zAZD minting.</source>
+        <translation>Vergrendelde AZD of Masternode onderpanden. Deze zijn uitgesloten van de zAZD muntage.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2231,8 +2231,8 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>Onbevestigd:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Uw huidige zPIV-saldo, onbevestigde en onvolgroeide zPIV inbegrepen.</translation>
+        <source>Your current zAZD balance, unconfirmed and immature zAZD included.</source>
+        <translation>Uw huidige zAZD-saldo, onbevestigde en onvolgroeide zAZD inbegrepen.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2243,10 +2243,10 @@ Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat he
         <translation>niet gesynchroniseerd</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zAZD.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Huidige percentage van zPIV
+        <translation>Huidige percentage van zAZD
 Als AutoMint ingeschakeld is zal deze percentage afhangen van de geconfigureerde AutoMint percentage (standaard = 10%).
 </translation>
     </message>
@@ -2390,8 +2390,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zAZD</source>
+        <translation>zAZD</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2402,8 +2402,8 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Beschikbaar voor minting:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 AZD</source>
+        <translation>0.000 000 00 AZD</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2442,16 +2442,16 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Vul het aantal PIV in om te converteren naar zPIV</translation>
+        <source>Enter an amount of Azd to convert to zAZD</source>
+        <translation>Vul het aantal AZD in om te converteren naar zAZD</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Control</translation>
+        <source>zAZD Control</source>
+        <translation>zAZD Control</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV geselecteerd:</translation>
+        <source>zAZD Selected:</source>
+        <translation>zAZD geselecteerd:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2466,24 +2466,24 @@ Om AutoMint in te schakelend verander je 'enablezeromint=0' naar 'enablezeromint
         <translation>Besteed Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Beschikbare (volwassen en uitgeefbaar) zPIV voor besteding</translation>
+        <source>Available (mature and spendable) zAZD for spending</source>
+        <translation>Beschikbare (volwassen en uitgeefbaar) zAZD voor besteding</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Beschikbaar saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zAZD for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Beschikbare (volwwassen en uitgeefbaar) zPIV voor besteding
+zAZD are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Beschikbare (volwwassen en uitgeefbaar) zAZD voor besteding
 
-zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
+zAzd zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 muntages van dezelfde denominaties nadat zij gemunt zijn.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zAZD</source>
+        <translation>0 zAZD</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2554,8 +2554,8 @@ zPiv zijn volwassen wanneer zij meer dan 20 bevestigingen hebben EN meer dan 2 m
         <translation>Zerocoin Statistieken:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zAZD</source>
+        <translation>Totale Saldi, inclusief onbevestigde en onvolwassen zAZD</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2576,24 +2576,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Onvolwassen: bevestigd, maar minder dan 1 mint van dezelfde denominatie nadat het gemint was.</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zAZD minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to anzudark.conf
 - disable: add 'enablezeromint=0' to anzudark.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zAZD
 
 </source>
-        <translation>Toon de huidige status van automatische zPIV-markering.
+        <translation>Toon de huidige status van automatische zAZD-markering.
 
 Om de status te wijzigen (opnieuw opstarten vereist): 
 - enable: voeg 'enablezeromint = 1' toe aan anzudark.conf
 - uitschakelen: voeg 'enablezeromint = 0' toe aan anzudark.conf
 
 Om het percentage te wijzigen (geen herstart vereist): 
-- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zPIV
+- menu Instellingen-&gt; Opties-&gt; Percentage van geautomatiseerde zAZD
 </translation>
     </message>
     <message>
@@ -2769,12 +2769,12 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Kopieer hoeveelheid</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV besteed #:</translation>
+        <source>zAZD Spend #: </source>
+        <translation>zAZD besteed #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV mint</translation>
+        <source>zAZD Mint</source>
+        <translation>zAZD mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2789,12 +2789,12 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Geconfigureerd doelpercentage:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV is momenteel uitgeschakeld vanwege onderhoud.</translation>
+        <source>zAZD is currently disabled due to maintenance.</source>
+        <translation>zAZD is momenteel uitgeschakeld vanwege onderhoud.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV wordt momenteel onderhouden.</translation>
+        <source>zAZD is currently undergoing maintenance.</source>
+        <translation>zAZD wordt momenteel onderhouden.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2881,8 +2881,8 @@ Om het percentage te wijzigen (geen herstart vereist):
         <translation>Succesvol gemint</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation> zPIV in </translation>
+        <source> zAZD in </source>
+        <translation> zAZD in </translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2956,12 +2956,12 @@ hardware.
 Wees alsjeblieft geduldig...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zPIV vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
+        <source>Version 1 zAZD require a security level of 100 to successfully spend.</source>
+        <translation>Versie 1 zAZD vereist een beveiligingsniveau van 100 om succesvol te besteden.</translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>Mislukt om zPIV te besteden.</translation>
+        <source>Failed to spend zAZD</source>
+        <translation>Mislukt om zAZD te besteden.</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -2989,7 +2989,7 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
     <message numerus="yes">
         <source>PrivacyDialog</source>
-        <comment>Enter an amount of PIV to convert to zPIV</comment>
+        <comment>Enter an amount of AZD to convert to zAZD</comment>
         <translation><numerusform>PrivacyDialoog</numerusform><numerusform>PrivacyDialog</numerusform></translation>
     </message>
     <message>
@@ -3306,8 +3306,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Aangepast back-up pad:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Aangepast zPIV back-up pad:</translation>
+        <source>Custom zAZD Backup Path:</source>
+        <translation>Aangepast zAZD back-up pad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3750,8 +3750,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>UTXO grootte:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 AZD</source>
+        <translation>0 AZD</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3806,12 +3806,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Munten automatisch geselecteerd</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPIVs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPIV's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uPIV's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uAZDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAZDs in fee,&lt;br /&gt;while "at least" pays 1000 uAZDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uAZDs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uAZD's in vergoeding,&lt;br /&gt;terwijl "minstens" 1000 uAZD's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uPIVs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uPIV's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uPIV's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uAZDs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uAZDs in fee,&lt;br /&gt;while "total at least" pays 1000 uAZDs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Als de aangepaste vergoeding is ingesteld op 1000 uAZDs en de transactie is slechts 250 bytes, dan betaalt per kilobyte alleen 250 uAZD's in vergoeding,&lt;br /&gt;terwijl "totaal minstens" 1000 uAZD's betaalt. Voor transacties die groter zijn dan een kilobyte, betalen beiden per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for AnzuDark transactions than the network can process.</source>
@@ -3862,8 +3862,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Voeg &amp;ontvanger toe</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Geanonimiseerde PIV</translation>
+        <source>Anonymized AZD</source>
+        <translation>Geanonimiseerde AZD</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4526,12 +4526,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verkregen via verduistering</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>AZD Stake</source>
+        <translation>AZD Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zAZD Stake</source>
+        <translation>zAZD Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4550,32 +4550,32 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verduistering creëert denominaties</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Geconverteerde PIV naar zPIV</translation>
+        <source>Converted AZD to zAZD</source>
+        <translation>Geconverteerde AZD naar zAZD</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Bestede zPIV</translation>
+        <source>Spent zAZD</source>
+        <translation>Bestede zAZD</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Ontvangen PIV van zPIV</translation>
+        <source>Received AZD from zAZD</source>
+        <translation>Ontvangen AZD van zAZD</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Gemint wisselgeld als zPIV van bestede zPIV</translation>
+        <source>Minted Change as zAZD from zAZD Spend</source>
+        <translation>Gemint wisselgeld als zAZD van bestede zAZD</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Geconverteerde zPIV naar PIV</translation>
+        <source>Converted zAZD to AZD</source>
+        <translation>Geconverteerde zAZD naar AZD</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonieme (zPIV transactie)</translation>
+        <source>Anonymous (zAZD Transaction)</source>
+        <translation>Anonieme (zAZD transactie)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonieme (zPIV stake)</translation>
+        <source>Anonymous (zAZD Stake)</source>
+        <translation>Anonieme (zAZD stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4785,12 +4785,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Exporteren succesvol</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Ontvangen PIV van zPIV</translation>
+        <source>Received AZD from zAZD</source>
+        <translation>Ontvangen AZD van zAZD</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin besteed, wisselgeld in zPIV</translation>
+        <source>Zerocoin Spend, Change in zAZD</source>
+        <translation>Zerocoin besteed, wisselgeld in zAZD</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4826,8 +4826,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 AZD.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 AZD.</translation>
     </message>
 </context>
 <context>
@@ -4858,10 +4858,10 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZAzdControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Selecteer zPIV om te besteden</translation>
+        <source>Select zAZD to Spend</source>
+        <translation>Selecteer zAZD om te besteden</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4872,8 +4872,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zAZD</source>
+        <translation>zAZD</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4939,16 +4939,16 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Gedistribueerd onder de MIT software licentie, zie het bijgevoegde bestand COPYING of &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zPIV (0-1, standaard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zAZD minting (0-1, default: %u)</source>
+        <translation>Schakel automatische portemonnee back-ups in geactiveerd na elke geminte zAZD (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor PIV inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for AZD inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor AZD inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor zPIV inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for zAZD inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor zAZD inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4983,12 +4983,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in PIV/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in AZD/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in AZD/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in PIV/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in AZD/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in AZD/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5095,12 +5095,12 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Kan niet genoeg verduistering gedenomineerde fondsen voor deze transactie vinden.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 AZD.</source>
+        <translation>Kan niet genoeg verduistering niet gedenomineerde fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 AZD.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 AZD.</source>
+        <translation>Kan niet genoeg fondsen voor deze transactie vinden die niet gelijk zijn aan 10000 AZD.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5411,8 +5411,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in PIV/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in AZD/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in AZD/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -5543,8 +5543,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Percentage automatisch geminte Zerocoin (10-100, standaard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Indexeer de PIV- en zPIV-geldvoorraadstatistieken opnieuw</translation>
+        <source>Reindex the AZD and zAZD money supply statistics</source>
+        <translation>Indexeer de AZD- en zAZD-geldvoorraadstatistieken opnieuw</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5619,8 +5619,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Voorkeur denominatie voor automatisch minted Zerocoin (1/5/10/50/100/500/1000/5000), 0 voor geen voorkeur. standaard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zPIV back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
+        <source>Specify custom backup path to add a copy of any automatic zAZD backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specificeer aangepast back-up pad om een kopie van elke automatische zAZD back-up toe te voegen. Indien ingesteld als dir zal elke back-up een bestand genereren met een tijdstempel. Indien ingesteld als file zal elke back-up herschreven worden naar dat bestand. Indien backuppath ook is ingesteld zullen 4 back-ups gedaan worden.</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6119,8 +6119,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Synchroniseren sporks...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Synchroniseren zPIV portemonnee...</translation>
+        <source>Syncing zAZD wallet...</source>
+        <translation>Synchroniseren zAZD portemonnee...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6267,8 +6267,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Gebruikersnaam voor JSON-RPC verbindingen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zAZD</source>
+        <translation>Waarde is minder dan de kleinst beschikbare denominatie (=1) van zAZD</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -6283,8 +6283,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Portemonnee verifiëren...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Versie 1 zPIV vereist een beveiligingsniveau van 100 om succesvol uit te geven.</translation>
+        <source>Version 1 zAZD require a security level of 100 to successfully spend.</source>
+        <translation>Versie 1 zAZD vereist een beveiligingsniveau van 100 om succesvol uit te geven.</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>

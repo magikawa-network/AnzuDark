@@ -186,8 +186,8 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
         // 시드수정.메인넷
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "pivx.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "pivx.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "azdx.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "azdx.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
         vSeeds.push_back(CDNSSeedData("coin-server.com", "coin-server.com"));         // Single node address
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net")); // Single node address
         vSeeds.push_back(CDNSSeedData("178.254.23.111", "178.254.23.111"));           // Single node address
@@ -230,7 +230,7 @@ public:
         nRequiredAccumulation = 1;
         nDefaultSecurityLevel = 100; //full security level for accumulators
         nZerocoinHeaderVersion = 4; //Block headers must be this version once zerocoin is active
-        nZerocoinRequiredStakeDepth = 200; //The required confirmations for a zpiv to be stakable
+        nZerocoinRequiredStakeDepth = 200; //The required confirmations for a zazd to be stakable
 
         nBudget_Fee_Confirmations = 6; // Number of confirmations for the finalization fee
     }
@@ -291,8 +291,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // 시드수정.테넷
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "pivx-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "pivx-testnet.seed2.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "azdx-testnet.seed.fuzzbawls.pw"));
+        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "azdx-testnet.seed2.fuzzbawls.pw"));
         vSeeds.push_back(CDNSSeedData("s3v3nh4cks.ddns.net", "s3v3nh4cks.ddns.net"));
         vSeeds.push_back(CDNSSeedData("88.198.192.110", "88.198.192.110"));
 
